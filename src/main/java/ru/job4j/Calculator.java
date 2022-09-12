@@ -7,6 +7,10 @@ public class Calculator {
         int six = 6;
         int four = 4;
         int five = 5;
+        int size = 10;
+        size = 100;
+        int result = size - 5;
+        System.out.println(result);
         int sixDivTwo = six / two;
         int fiveMinusTwo = five - two;
         int fourTimeTwo = four * two;
@@ -16,3 +20,4 @@ public class Calculator {
 
     }
 }
+
