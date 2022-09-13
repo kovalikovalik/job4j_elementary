@@ -44,7 +44,7 @@ public class Converter {
         float in3 = 10;
         float expected3 = 600;
         float out3 = Converter.dollarToRuble(in3);
-        boolean passed3 = expected3 ==out3;
+        boolean passed3 = expected3 == out3;
         System.out.println("10 dollars are 600 roubles. Test result :" + passed3);
 
     }
