@@ -5,16 +5,16 @@ public class Converter {
         return value / 70;
     }
 
-    public static float rubleToDollar(float value1) {
-        return value1 / 60;
+    public static float rubleToDollar(float value) {
+        return value / 60;
     }
 
-    public static float euroToRuble(float value2) {
-        return value2 * 70;
+    public static float euroToRuble(float value) {
+        return value * 70;
     }
 
-    public static float dollarToRuble(float value3) {
-        return value3 * 60;
+    public static float dollarToRuble(float value) {
+        return value * 60;
     }
 
     public static void main(String[] args) {
