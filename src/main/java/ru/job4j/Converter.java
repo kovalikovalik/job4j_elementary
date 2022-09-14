@@ -31,21 +31,21 @@ public class Converter {
         float out = Converter.rubleToEuro(in);
         boolean passed = expected == out;
         System.out.println("140 rubles are 2. Test result : " + passed);
-        float in1 = 120;
-        float expected1 = 2;
-        float out1 = Converter.rubleToDollar(in1);
-        boolean passed1 = expected1 == out1;
-        System.out.println("120 rubles are 2. Test result : " + passed1);
-        float in2 = 5;
-        float expected2 = 350;
-        float out2 = Converter.euroToRuble(in2);
-        boolean passed2 = expected2 == out2;
-        System.out.println("5 euro are 350 roubles. Test result :" + passed2);
-        float in3 = 10;
-        float expected3 = 600;
-        float out3 = Converter.dollarToRuble(in3);
-        boolean passed3 = expected3 == out3;
-        System.out.println("10 dollars are 600 roubles. Test result :" + passed3);
+        in = 120;
+        expected = 2;
+        out = Converter.rubleToDollar(in);
+        passed = expected == out;
+        System.out.println("120 rubles are 2. Test result : " + passed);
+        in = 5;
+        expected = 350;
+        out = Converter.euroToRuble(in);
+        passed = expected == out;
+        System.out.println("5 euro are 350 roubles. Test result :" + passed);
+        in = 10;
+        expected = 600;
+        out = Converter.dollarToRuble(in);
+        passed = expected == out;
+        System.out.println("10 dollars are 600 roubles. Test result :" + passed);
 
     }
 
