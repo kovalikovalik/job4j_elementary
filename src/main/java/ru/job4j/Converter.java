@@ -46,7 +46,6 @@ public class Converter {
         out = Converter.dollarToRuble(in);
         passed = expected == out;
         System.out.println("10 dollars are 600 roubles. Test result :" + passed);
-
     }
 
     }
