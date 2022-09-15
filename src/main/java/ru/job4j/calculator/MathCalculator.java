@@ -21,8 +21,8 @@ public class MathCalculator {
     }
 
     public static void main(String[] args) {
-        System.out.println("Результат сложения и частного равен: " + sumAndMultiply(50, 10));
-        System.out.println("Результат разности и частного равен: " + diffAndDivision(50, 10));
-        System.out.println("Результат всех действий равен: " + all(50, 10));
+        System.out.println("Сумма сложения и частного равна: " + sumAndMultiply(50, 10));
+        System.out.println("Сумма разности и частного равна: " + diffAndDivision(50, 10));
+        System.out.println("Сумма всех действий равна: " + all(50, 10));
     }
 }
