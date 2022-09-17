@@ -14,7 +14,7 @@ public class MaxTest {
     }
 
     @Test
-    public void whenMax7To2Then5() {
+    public void whenMax7To2Then7() {
         int left = 7;
         int right = 2;
         int result = Max.max(left, right);
