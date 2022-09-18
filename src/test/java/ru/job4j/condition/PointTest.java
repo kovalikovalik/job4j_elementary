@@ -16,12 +16,12 @@ public class PointTest {
     }
 
     @Test
-    public void when55to99then0() {
+    public void when55to88then0() {
         double expected = 0;
         int x1 = 5;
-        int y1 = 9;
+        int y1 = 8;
         int x2 = 5;
-        int y2 = 9;
+        int y2 = 8;
         double out = Point.distance(x1, y1, x2, y2);
         Assert.assertEquals(expected, out, 0.01);
     }
