@@ -17,4 +17,3 @@ public class Counter {
             System.out.println(sum(1, 20));
         }
     }
-
