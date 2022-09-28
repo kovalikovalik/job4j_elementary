@@ -18,7 +18,7 @@ public class SwitchArrayTest {
     public void whenSwap4to5() {
         int[] input = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         int source = 4;
-        int dest = input.length - 4;
+        int dest = 5;
         int[] result = SwitchArray.swap(input, source, dest);
         int[] expected = {1, 2, 3, 4, 6, 5, 7, 8, 9};
         assertThat(result).containsExactly(expected);
@@ -28,7 +28,7 @@ public class SwitchArrayTest {
     public void whenSwap3to4() {
         int[] input = {1, 2, 3, 4, 5, 6};
         int source = 2;
-        int dest = input.length - 3;
+        int dest = 3;
         int[] result = SwitchArray.swap(input, source, dest);
         int[] expected = {1, 2, 4, 3, 5, 6};
         assertThat(result).containsExactly(expected);
