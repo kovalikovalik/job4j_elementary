@@ -22,12 +22,12 @@ public class FindLoopTest {
         assertThat(result).isEqualTo(expected);
     }
 
-        @Test
-        public void whenArrayHas4Then3() {
-            int[] data = new int[] {1, 2, 3, 4, 5};
-            int el = 4;
-            int result = FindLoop.indexOf(data, el);
-            int expected = 3;
-            assertThat(result).isEqualTo(expected);
+    @Test
+    public void whenArrayHas4Then3() {
+        int[] data = new int[] {1, 2, 3, 4, 5};
+        int el = 4;
+        int result = FindLoop.indexOf(data, el);
+        int expected = 3;
+        assertThat(result).isEqualTo(expected);
     }
 }
