@@ -46,8 +46,8 @@ public class FindLoopTest {
     public void whenDiapasonHasNot9ThenMinus1() {
         int[] data = new int[] {5, 2, 10, 2, 4};
         int el = 9;
-        int start = 0;
-        int finish = 4;
+        int start = 1;
+        int finish = 3;
         int result = FindLoop.indexInRange(data, el, start, finish);
         int expected = -1;
         assertThat(result).isEqualTo(expected);
