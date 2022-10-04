@@ -21,7 +21,7 @@ public class MatrixCheckTest {
         char[][] input = {
                 {' ', ' ', ' ', ' '},
                 {' ', ' ', ' ', ' '},
-                {'X', 'X', 'X', 'O'},
+                {'X', 'X', 'X', ' '},
                 {' ', ' ', ' ', ' '},
         };
         int row = 2;
@@ -45,7 +45,7 @@ public class MatrixCheckTest {
     public void whenHasNotMonoVertical() {
         char[][] input = {
                 {' ', ' ', ' ', 'X', ' '},
-                {' ', ' ', ' ', 'O', ' '},
+                {' ', ' ', ' ', ' ', ' '},
                 {' ', ' ', ' ', 'X', ' '},
         };
         int column = 3;
