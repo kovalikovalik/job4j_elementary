@@ -1,33 +1,37 @@
 package ru.job4j.condition;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import static org.assertj.core.api.Assertions.assertThat;
 
 public class MaxTest {
+
     @Test
-    public void whenMax1To2Then2() {
-        int left = 1;
-        int right = 2;
-        int result = Max.max(left, right);
-        int expected = 2;
-        assertThat(result).isEqualTo(expected);
+    void whenMaxSecond() {
+        int first = 10;
+        int second = 20;
+        int result = Max.max(first, second);
+        int expected = 20;
+        Assertions.assertEquals(result, expected);
     }
 
     @Test
-    public void whenMax7To2Then7() {
-        int left = 7;
-        int right = 2;
-        int result = Max.max(left, right);
-        int expected = 7;
-        assertThat(result).isEqualTo(expected);
+    void whenMaxThird() {
+        int first = 1;
+        int second = 2;
+        int third = 3;
+        int result = Max.max(first, second, third);
+        int expected = 3;
+        Assertions.assertEquals(result, expected);
     }
 
     @Test
-    public void whenMax6To6Then6() {
-        int left = 6;
-        int right = 6;
-        int result = Max.max(left, right);
-        int expected = 6;
-        assertThat(result).isEqualTo(expected);
+    void testMax1() {
+        int first = 0;
+        int second = 6;
+        int third = 12;
+        int fourth = 18;
+        int result = Max.max(first, second, third, fourth);
+        int expected = 18;
+        Assertions.assertEquals(result, expected);
     }
 }
