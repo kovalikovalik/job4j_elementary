@@ -25,7 +25,7 @@ public class MaxTest {
     }
 
     @Test
-    void testMax1() {
+    void whenMaxFourth() {
         int first = 0;
         int second = 6;
         int third = 12;
